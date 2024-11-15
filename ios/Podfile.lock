@@ -1,0 +1,689 @@
+PODS:
+  - advn_video (0.0.1):
+    - Flutter
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
+    - AppAuth/Core
+  - audio_session (0.0.1):
+    - Flutter
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - CryptoSwift (1.8.2)
+  - device_info (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - downloads_path_provider_28 (0.0.1):
+    - Flutter
+  - eraser (0.0.1):
+    - Flutter
+  - FBAEMKit (15.1.0):
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit (15.1.0):
+    - FBAEMKit (= 15.1.0)
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit_Basics (15.1.0)
+  - FBSDKLoginKit (15.1.0):
+    - FBSDKCoreKit (= 15.1.0)
+  - ffmpeg-kit-ios-https (4.5.1)
+  - ffmpeg_kit_flutter (4.5.1):
+    - ffmpeg_kit_flutter/https (= 4.5.1)
+    - Flutter
+  - ffmpeg_kit_flutter/https (4.5.1):
+    - ffmpeg-kit-ios-https (= 4.5.1)
+    - Flutter
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Firebase/Analytics (9.3.0):
+    - Firebase/Core
+  - Firebase/Auth (9.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 9.3.0)
+  - Firebase/Core (9.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 9.3.0)
+  - Firebase/CoreOnly (9.3.0):
+    - FirebaseCore (= 9.3.0)
+  - Firebase/DynamicLinks (9.3.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 9.3.0)
+  - Firebase/Messaging (9.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 9.3.0)
+  - firebase_analytics (9.1.0):
+    - Firebase/Analytics (= 9.3.0)
+    - firebase_core
+    - Flutter
+  - firebase_auth (3.3.8):
+    - Firebase/Auth (= 9.3.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (1.20.0):
+    - Firebase/CoreOnly (= 9.3.0)
+    - Flutter
+  - firebase_dynamic_links (4.3.11):
+    - Firebase/DynamicLinks (= 9.3.0)
+    - firebase_core
+    - Flutter
+  - firebase_messaging (12.0.0):
+    - Firebase/Messaging (= 9.3.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAnalytics (9.3.0):
+    - FirebaseAnalytics/AdIdSupport (= 9.3.0)
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (9.3.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleAppMeasurement (= 9.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAuth (9.3.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.7)
+  - FirebaseCore (9.3.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.6.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.6.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseDynamicLinks (9.3.0):
+    - FirebaseCore (~> 9.0)
+  - FirebaseInstallations (9.6.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (9.3.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Flutter (1.0.0)
+  - "flutter_callkit_incoming_custom (0.0.1+1)":
+    - CryptoSwift
+    - Flutter
+  - flutter_facebook_auth (5.0.4):
+    - FBSDKLoginKit (~> 15.1.0)
+    - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - flutter_webrtc (0.9.31):
+    - Flutter
+    - WebRTC-SDK (= 104.5112.17)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.11):
+    - FMDB/standard (= 2.7.11)
+  - FMDB/standard (2.7.11)
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_sign_in (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 5.0)
+  - GoogleAppMeasurement (9.3.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.3.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.13.3)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/Reachability (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - image_cropper (0.0.4):
+    - Flutter
+    - TOCropViewController (~> 2.6.1)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - just_audio (0.0.1):
+    - Flutter
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - livekit_client_custom (1.3.5):
+    - Flutter
+    - WebRTC-SDK (= 104.5112.17)
+  - local_auth_ios (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - media_gallery2 (0.0.1):
+    - Flutter
+  - MTBBarcodeScanner (5.0.11)
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - npk_core (0.0.1):
+    - Flutter
+  - open_filex (0.0.2):
+    - Flutter
+  - OrderedSet (5.0.0)
+  - package_info (0.0.1):
+    - Flutter
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - photo_manager (2.0.0):
+    - Flutter
+    - FlutterMacOS
+  - platform_device_id (0.0.1):
+    - Flutter
+  - PromisesObjC (2.4.0)
+  - qr_code_scanner (0.2.0):
+    - Flutter
+    - MTBBarcodeScanner
+  - ReachabilitySwift (5.2.3)
+  - scan (0.0.1):
+    - Flutter
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - Sentry/HybridSDK (7.31.3)
+  - sentry_flutter (0.0.1):
+    - Flutter
+    - FlutterMacOS
+    - Sentry/HybridSDK (= 7.31.3)
+  - share (0.0.1):
+    - Flutter
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sign_in_with_apple (0.0.1):
+    - Flutter
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - SwiftyGif (5.4.5)
+  - Toast (4.1.1)
+  - TOCropViewController (2.6.1)
+  - traceability_module (0.0.1):
+    - Flutter
+  - Trackasia (1.0.1)
+  - trackasia_gl (1.0.1):
+    - Flutter
+    - Trackasia (~> 1.0.1)
+    - TrackasiaAnnotationExtension (~> 1.0.1)
+  - TrackasiaAnnotationExtension (1.0.1):
+    - Trackasia (~> 1.0.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_compress (0.3.0):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - video_thumbnail (0.0.1):
+    - Flutter
+    - libwebp
+  - wakelock (0.0.1):
+    - Flutter
+  - WebRTC-SDK (104.5112.17)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+  - zalo_flutter (0.0.1):
+    - Flutter
+    - ZaloSDK
+  - ZaloSDK (4.1.0120):
+    - ZaloSDK/Core (= 4.1.0120)
+    - ZaloSDK/Main (= 4.1.0120)
+  - ZaloSDK/Core (4.1.0120)
+  - ZaloSDK/Main (4.1.0120):
+    - ZaloSDK/Core
+
+DEPENDENCIES:
+  - advn_video (from `.symlinks/plugins/advn_video/ios`)
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - downloads_path_provider_28 (from `.symlinks/plugins/downloads_path_provider_28/ios`)
+  - eraser (from `.symlinks/plugins/eraser/ios`)
+  - ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_dynamic_links (from `.symlinks/plugins/firebase_dynamic_links/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_callkit_incoming_custom (from `.symlinks/plugins/flutter_callkit_incoming_custom/ios`)
+  - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - just_audio (from `.symlinks/plugins/just_audio/ios`)
+  - livekit_client_custom (from `.symlinks/plugins/livekit_client_custom/ios`)
+  - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - media_gallery2 (from `.symlinks/plugins/media_gallery2/ios`)
+  - npk_core (from `.symlinks/plugins/npk_core/ios`)
+  - open_filex (from `.symlinks/plugins/open_filex/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - platform_device_id (from `.symlinks/plugins/platform_device_id/ios`)
+  - qr_code_scanner (from `.symlinks/plugins/qr_code_scanner/ios`)
+  - scan (from `.symlinks/plugins/scan/ios`)
+  - sentry_flutter (from `.symlinks/plugins/sentry_flutter/ios`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sign_in_with_apple (from `.symlinks/plugins/sign_in_with_apple/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - traceability_module (from `.symlinks/plugins/traceability_module/ios`)
+  - Trackasia (= 1.0.1)
+  - trackasia_gl (from `.symlinks/plugins/trackasia_gl/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_compress (from `.symlinks/plugins/video_compress/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - video_thumbnail (from `.symlinks/plugins/video_thumbnail/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+  - zalo_flutter (from `.symlinks/plugins/zalo_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/track-asia/trackasia-flutter-podspecs.git:
+    - Trackasia
+    - TrackasiaAnnotationExtension
+  trunk:
+    - AppAuth
+    - CryptoSwift
+    - DKImagePickerController
+    - DKPhotoGallery
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - ffmpeg-kit-ios-https
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - libwebp
+    - MTBBarcodeScanner
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - ReachabilitySwift
+    - SDWebImage
+    - Sentry
+    - SwiftyGif
+    - Toast
+    - TOCropViewController
+    - WebRTC-SDK
+    - ZaloSDK
+
+EXTERNAL SOURCES:
+  advn_video:
+    :path: ".symlinks/plugins/advn_video/ios"
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  downloads_path_provider_28:
+    :path: ".symlinks/plugins/downloads_path_provider_28/ios"
+  eraser:
+    :path: ".symlinks/plugins/eraser/ios"
+  ffmpeg_kit_flutter:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_dynamic_links:
+    :path: ".symlinks/plugins/firebase_dynamic_links/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_callkit_incoming_custom:
+    :path: ".symlinks/plugins/flutter_callkit_incoming_custom/ios"
+  flutter_facebook_auth:
+    :path: ".symlinks/plugins/flutter_facebook_auth/ios"
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_sign_in:
+    :path: ".symlinks/plugins/google_sign_in/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/ios"
+  livekit_client_custom:
+    :path: ".symlinks/plugins/livekit_client_custom/ios"
+  local_auth_ios:
+    :path: ".symlinks/plugins/local_auth_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  media_gallery2:
+    :path: ".symlinks/plugins/media_gallery2/ios"
+  npk_core:
+    :path: ".symlinks/plugins/npk_core/ios"
+  open_filex:
+    :path: ".symlinks/plugins/open_filex/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  platform_device_id:
+    :path: ".symlinks/plugins/platform_device_id/ios"
+  qr_code_scanner:
+    :path: ".symlinks/plugins/qr_code_scanner/ios"
+  scan:
+    :path: ".symlinks/plugins/scan/ios"
+  sentry_flutter:
+    :path: ".symlinks/plugins/sentry_flutter/ios"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sign_in_with_apple:
+    :path: ".symlinks/plugins/sign_in_with_apple/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  traceability_module:
+    :path: ".symlinks/plugins/traceability_module/ios"
+  trackasia_gl:
+    :path: ".symlinks/plugins/trackasia_gl/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_compress:
+    :path: ".symlinks/plugins/video_compress/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  video_thumbnail:
+    :path: ".symlinks/plugins/video_thumbnail/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+  zalo_flutter:
+    :path: ".symlinks/plugins/zalo_flutter/ios"
+
+SPEC CHECKSUMS:
+  advn_video: 4dc94db77281c81ac72f6af4246438bc01b5d417
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  audio_session: 088d2483ebd1dc43f51d253d4a1c517d9a2e7207
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  CryptoSwift: c63a805d8bb5e5538e88af4e44bb537776af11ea
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  downloads_path_provider_28: 7425048683ec0b86238361bd93795e91c2bc61a2
+  eraser: 23d701c0ff53a9d042581459b752fd76a6ad6ca4
+  FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
+  FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
+  FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
+  FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
+  ffmpeg-kit-ios-https: cec24d405b511e4f274980d8a9c751d384f89558
+  ffmpeg_kit_flutter: e2f0bd6b75e361faeee3b34c70650d3ec6ec35d0
+  file_picker: ce3938a0df3cc1ef404671531facef740d03f920
+  Firebase: ef75abb1cdbc746d5a38f4e26c422c807b189b8c
+  firebase_analytics: 56402443122de8c1fac579263f423c16368997c5
+  firebase_auth: 69f7becd4ac1cbb7d586f977f19ad43cb32f133c
+  firebase_core: 96214f90497b808a2cf2a24517084c5f6de37b53
+  firebase_dynamic_links: 1caaef84be724df9b8718457ad7f9eedf2878aaf
+  firebase_messaging: 63d09fa4c6f33854749b2056643ba6a8f6c9bd41
+  FirebaseAnalytics: bf46f5163f44097ce2c789de0b3e6f87f1da834a
+  FirebaseAuth: 9ebc3577fe0acf9092df21ac314024b70aebf21e
+  FirebaseCore: c088995ece701a021a48a1348ea0174877de2a6a
+  FirebaseCoreDiagnostics: 99a495094b10a57eeb3ae8efa1665700ad0bdaa6
+  FirebaseCoreInternal: bca76517fe1ed381e989f5e7d8abb0da8d85bed3
+  FirebaseDynamicLinks: af0acc2d1fa117a074e84a3c06a1d9f817443490
+  FirebaseInstallations: 0a115432c4e223c5ab20b0dbbe4cbefa793a0e8e
+  FirebaseMessaging: 2f6e38b6133059eb796ec224104f09379298a8c3
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_callkit_incoming_custom: 41ff0edeabaaeeb31c171148ba4b1be9f1531ad0
+  flutter_facebook_auth: c69f4e643b1d9cc9063ec87c9411bd9ec268108f
+  flutter_inappwebview: 166ed136c90e43c69b451f6d825da379be66c847
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
+  flutter_webrtc: 02c023207f972145a3bc8c7aada86754f264d563
+  fluttertoast: 9f2f8e81bb5ce18facb9748d7855bf5a756fe3db
+  FMDB: 57486c1117fd8e0e6b947b2f54c3f42bf8e57a4e
+  geolocator_apple: 6cbaf322953988e009e5ecb481f07efece75c450
+  google_sign_in: f669f45933dad48cd218dc3e189726bced3d19f4
+  GoogleAppMeasurement: b907bdad775b6975a8108762345b2cfbf1a93c37
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  image_cropper: a3291c624a953049bc6a02e1f8c8ceb162a24b25
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker: e06f7a68f000bd36f552c1847e33cda96ed31f1f
+  just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  livekit_client_custom: 0e8e108d24064e113d5845f5cf4a571c58f53398
+  local_auth_ios: c6cf091ded637a88f24f86a8875d8b0f526e2605
+  location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
+  media_gallery2: ad22d20a964307b3126f48657db3a5d9a5cda64a
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  npk_core: 9217a124d12bc27d1366f7e16a604638bc07534a
+  open_filex: 6e26e659846ec990262224a12ef1c528bb4edbe4
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  photo_manager: 4f6810b7dfc4feb03b461ac1a70dacf91fba7604
+  platform_device_id: 81b3e2993881f87d0c82ef151dc274df4869aef5
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  qr_code_scanner: bb67d64904c3b9658ada8c402e8b4d406d5d796e
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  scan: aea35bb4aa59ccc8839c576a18cd57c7d492cc86
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  Sentry: 08884c523575ec0f6690d94ed3ccb0246a1600bf
+  sentry_flutter: 91ebe7757a166b34ff432a0d550d22cd010d44d2
+  share: 2971078d219411d7ba42d82153eda4fea1a645b2
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sign_in_with_apple: f3bf75217ea4c2c8b91823f225d70230119b8440
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
+  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  traceability_module: 5f181824d9a67457665d2de9e6973ba20a11c038
+  Trackasia: d0d58b5960c81ecc7cd89a17e7db50ac2980e7f9
+  trackasia_gl: 59927db4afc543a028e332e52de1aeadaafd858f
+  TrackasiaAnnotationExtension: 4ca4f93e46544ee48a6e8e635e23fc0ed579591f
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+  video_compress: fce97e4fb1dfd88175aa07d2ffc8a2f297f87fbe
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  video_thumbnail: c4e2a3c539e247d4de13cd545344fd2d26ffafd1
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+  WebRTC-SDK: 082ae4893212534a779ca233f19a9df8efd5f3bd
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+  zalo_flutter: 0fe7092dc50f3f4baf26ed980cedc9b4ed66c5b2
+  ZaloSDK: 233c5cb5247bd6891f4a7d2d9505f6a2b9aa38c6
+
+PODFILE CHECKSUM: 17f657d60daaca6e63229cf18fcd5edfb23a3921
+
+COCOAPODS: 1.15.2

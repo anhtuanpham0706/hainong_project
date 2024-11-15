@@ -1,0 +1,342 @@
+{
+  "project_info": {
+    "project_number": "927066340238",
+    "firebase_url": "https://advn-spa-ca053.firebaseio.com",
+    "project_id": "advn-spa-ca053",
+    "storage_bucket": "advn-spa-ca053.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:699bea3444c885036fc2df",
+        "android_client_info": {
+          "package_name": "com.advn.hainong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-3lg0855j170r178ekic8djcmofe1co0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.advn.hainong",
+            "certificate_hash": "079e65b271f9990463e82810473b4c3d6ac1f181"
+          }
+        },
+        {
+          "client_id": "927066340238-7do1irsdiof9m3bp7q82pilr7emfs2ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.advn.hainong",
+            "certificate_hash": "8d0921860d5f34ec7bec3c164f3a323af11711e3"
+          }
+        },
+        {
+          "client_id": "927066340238-lpjpspffiptp4pjglu03g3lo74iu7isv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.advn.hainong",
+            "certificate_hash": "892173633671a43fe3f1b5d0eada103cf507ef84"
+          }
+        },
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:169db412e3f3015c6fc2df",
+        "android_client_info": {
+          "package_name": "com.advn.market.price"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-kdjnduh3tc52qa4hmvcskeiqj8ov20lo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.advn.market.price",
+            "certificate_hash": "51f8fadd53d8d29e1be38e4a78abbb436d783bc3"
+          }
+        },
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:06c9b8976f391e3b6fc2df",
+        "android_client_info": {
+          "package_name": "vn.advn.dcm_ai.pest_diagnosis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:6973ad29cedda3ce6fc2df",
+        "android_client_info": {
+          "package_name": "vn.hainong.consultation.expert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-g72kmpkqa7en9t29nvl9fkj2bjohkfnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.hainong.consultation.expert",
+            "certificate_hash": "1a6f0d09a60c05255681f775481c5d93ff459231"
+          }
+        },
+        {
+          "client_id": "927066340238-uq0o7t90mncubvj7gq6jd2gpppikman6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.hainong.consultation.expert",
+            "certificate_hash": "d18c136f81b0f7bb2985049baee9e612d522cabc"
+          }
+        },
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:2ba2270d906e4ae76fc2df",
+        "android_client_info": {
+          "package_name": "vn.hainong.expert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-anteu6lmke0amcv2h5c5p130r1pe3386.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.hainong.expert",
+            "certificate_hash": "d18c136f81b0f7bb2985049baee9e612d522cabc"
+          }
+        },
+        {
+          "client_id": "927066340238-cqm39tpts9td3qrjpqedf2u92dbkj8je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.hainong.expert",
+            "certificate_hash": "6e47e51a1f96b62982b9bc42cf40096d316e6b08"
+          }
+        },
+        {
+          "client_id": "927066340238-f2j8p3dnc7k44b7cqp30cq0glp6sbtu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.hainong.expert",
+            "certificate_hash": "ba47ab5fa78008740aca6fe045948919d3253f67"
+          }
+        },
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:c1fdb1830a5c7d7c6fc2df",
+        "android_client_info": {
+          "package_name": "vn.hainong.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927066340238:android:b8818b4fb4db179c6fc2df",
+        "android_client_info": {
+          "package_name": "vn.pvcfc.farm_manage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927066340238-hrtne5ujprl09cmbedp8otgv1p7isjdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANvmORfkgrXBO6yQqXhFDFkBqSFGxC7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927066340238-dv3l2cpleu5jrlmamf80vuma2qt1g3nb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927066340238-0iqgomplphqc56595df0uab9o627lftf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.pvcfc.farmmanage",
+                "app_store_id": "6449612803"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

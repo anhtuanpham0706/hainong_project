@@ -1,0 +1,43 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.advn.hainong",
+      "sha256_cert_fingerprints": [
+        "77:F7:D5:B6:C7:3C:0D:83:BD:5C:D7:C8:7E:50:0A:39:68:FE:AA:59:03:82:AD:D4:B8:04:59:D0:C6:2C:E6:45",
+        "ED:4B:17:D5:13:32:D6:A9:3A:26:C3:49:28:BE:F9:A6:ED:62:CA:8E:22:E5:F6:6E:01:1A:C7:B3:F4:5A:8B:2C",
+        "73:4F:A8:66:A9:3F:EE:43:EA:A8:62:31:90:BA:DA:14:A8:66:A6:3D:4C:40:ED:89:E5:78:3F:40:33:66:4E:B2"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "vn.hainong.consultation.expert",
+      "sha256_cert_fingerprints": [
+        "C3:FC:46:DE:BE:C1:A1:82:5B:AF:DD:2C:14:95:32:F5:1F:A7:FE:01:DB:AD:68:CE:DC:70:32:84:42:2B:EA:B9",
+        "16:63:97:5B:B5:2D:B5:66:EA:9C:2C:FC:5E:F6:64:25:59:5F:5A:9A:48:F2:17:52:B0:5D:3F:D3:0E:7F:D3:10"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "vn.hainong.expert",
+      "sha256_cert_fingerprints": [
+        "16:63:97:5B:B5:2D:B5:66:EA:9C:2C:FC:5E:F6:64:25:59:5F:5A:9A:48:F2:17:52:B0:5D:3F:D3:0E:7F:D3:10",
+        "56:D8:6C:76:61:A9:5D:DF:33:0A:AC:4A:4A:8B:1C:08:0B:FA:B0:50:E6:51:66:50:5E:89:FD:F2:C7:FE:41:9A",
+        "9A:DE:0B:52:18:39:CF:4A:A5:67:2D:49:66:1E:1C:88:41:87:1B:D7:07:A0:A0:2E:21:2D:17:C8:B2:12:61:C6"
+      ]
+    }
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">584352923239914</string>
+    <string name="facebook_client_token">011a7cea3870accfcdfeb4b25c30a683</string>
+    <!--<string name="facebook_app_id">316648756320144</string>
+    <string name="facebook_client_token">4d5b6d3ddedc464e9bb31cd9b39a51f2</string>-->
+    <string name="zalo_flutter_app_id">2595524567729539238</string>
+    <string name="zalo_flutter_app_id_protocol">zalo-2595524567729539238</string>
+</resources>

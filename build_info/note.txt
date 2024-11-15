@@ -1,0 +1,2 @@
+alias: advn_cho2nong
+pass: advn@2020

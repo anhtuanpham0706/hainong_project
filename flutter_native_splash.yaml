@@ -1,0 +1,10 @@
+flutter_native_splash:
+  background_image: "assets/images/v2/bg_splash_v2.png"
+  background_image_dark: "assets/images/v2/bg_splash_v2.png"
+  android_12:
+    background_image: "assets/images/v2/bg_splash_v2.png"
+    background_image_dark: "assets/images/v2/bg_splash_v2.png"
+  ios_content_mode: scaleAspectFill
+  android_gravity: fill
+  android: true
+  ios: true
